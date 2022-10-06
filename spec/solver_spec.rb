@@ -17,4 +17,10 @@ describe Solver do
       expect { @solver.factorial(-1) }.to raise_error('Number should not be negative')
     end
   end
+
+  context 'when the reverse method is called' do
+    it 'should return the reversed version of the string' do
+      expect(@solver.reverse('hello')).to eql('olleh')
+    end
+  end
 end
