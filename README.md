@@ -1,35 +1,46 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# TDD Ruby Project  
+# TDD Ruby Project
 
-> This is an exercise to practice using TDD in Ruby. 
-
+> This is an exercise to practice using TDD in Ruby.
 
 ## Built With
 
 - VS Code
 - Ruby
-- IRB 
-
+- IRB
 
 ### Setup
-Simple install RUby using WSL 
-Install Ubuntu after system restart 
+
+Simple install RUby using WSL
+Install Ubuntu after system restart
 Update the environment (optional)
 Open Ubuntu terminal
 Complete setting up with your username and password
-Type in IRB 
-Start programming in Ruby :) 
-Create a pair programming branch 
-Set dev branch as main branch 
-
+Type in IRB
+Start programming in Ruby :)
+Create a pair programming branch
+Set dev branch as main branch
 
 ### Install
-Install Ruby using WSL 
+
+Install Ruby using WSL
 Install Ubuntu after system restart
 Create .rb file to write in the actions
 Add methods to the .rb file  
 Run the commands
+
+### Run the tests
+
+```
+rspec
+```
+
+or
+
+```
+rspec spec spec/[FILE NAME FROM THE SPEC FOLDER]
+```
 
 ## Authors
 
@@ -41,8 +52,8 @@ Run the commands
 
 **Virag Kormoczy**
 
-- GitHub: [@githubhandle](https://github.com/virag-ky)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/virag-kormoczy/)
+- GitHub: [@virag-ky](https://github.com/virag-ky)
+- LinkedIn: [virag-kormoczy](https://www.linkedin.com/in/virag-kormoczy/)
 
 ## 🤝 Contributing
 

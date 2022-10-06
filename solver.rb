@@ -3,12 +3,12 @@ class Solver
     raise 'Number should not be negative' if num.negative?
 
     fact = 1
-    if(num == 0)
+    if num.zero?
       puts 'Please enter a number greater than 1'
     else
       i = 1
       while i <= num
-        fact = fact * i
+        fact *= i
         i += 1
       end
     end
@@ -21,8 +21,8 @@ class Solver
 
   def fizzbuzz(number)
     (1..number).map do |n|
-      fizz = (n % 3 == 0)
-      buzz = (n % 5 == 0)
+      fizz = (n % 3).zero?
+      buzz = (n % 5).zero?
       if fizz && buzz
         'FizzBuzz'
       elsif buzz
