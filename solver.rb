@@ -12,11 +12,11 @@ class Solver
         i += 1
       end
     end
-    puts "Factorial of #{num} is #{fact}"
+    fact
   end
 
   def reverse(str)
-    puts str.reverse
+    str.reverse
   end
 
   def fizzbuzz(number)
@@ -24,11 +24,13 @@ class Solver
       fizz = (n % 3 == 0)
       buzz = (n % 5 == 0)
       if fizz && buzz
-        puts "FizzBuzz"
+        'FizzBuzz'
       elsif buzz
-        puts "Buzz"
+        'Buzz'
+      elsif fizz
+        'Fizz'
       else
-        puts n
+        n.to_s
       end
     end
   end
